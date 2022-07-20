@@ -1,0 +1,11 @@
+Steps in writing LEX Program:
+Step – Using gedit create a file with extension .l For example: prg1.l
+Step – lex prg1.l
+Step – cc lex.yy.c –ll
+Step – ./a.out
+Steps in writing YACC Program:
+Step: Using gedit editor create a file with extension y. For example: gedit prg1.y
+Step: YACC –d prg1.y
+Step: lex prg1.l
+Step: cc y.tab.c lex.yy.c -ll
+Step: /a.out
